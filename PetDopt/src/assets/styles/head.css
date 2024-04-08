@@ -1,0 +1,10 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.top-bar {
+    background-color: #2F4858;
+    width: 100%;
+    height: 25vw;
+}
