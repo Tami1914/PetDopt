@@ -1,11 +1,10 @@
-import Max from "/images/Max.jpg";
+import "./Body.css";
+import ImagesWithNames from "../imagesWithName/ImagesWithName";
 
 function Body() {
   return (
     <>
-      <div className="animals-container">
-        <img src={Max}/>
-      </div>
+      <ImagesWithNames/>
     </>
   )
 }

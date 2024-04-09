@@ -1,0 +1,35 @@
+.animals-container{
+  margin-top: 2.5em;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5em;
+}
+
+.image-list{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-list span{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  color: black;
+  background-color: #D9D9D9;
+  border-bottom-left-radius: 1.5em;
+  border-bottom-right-radius: 1.5em;
+  font-family: "Kalam";
+}
+
+.image-list img{
+  width: 70%;
+  display: flex;
+  border-top-left-radius: 1.5em;
+  border-top-right-radius: 1.5em;
+}
