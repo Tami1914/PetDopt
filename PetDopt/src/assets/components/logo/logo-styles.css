@@ -1,5 +1,5 @@
 .logo-container{
-    width: 35%;
+    width: 60%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -8,6 +8,12 @@
 }
 
 .logo-container img{
-    width: 50%;
+    width: 45%;
     border-radius: 50%;
+}
+
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }

@@ -1,11 +1,12 @@
 import logo from "/images/logo.png";
 import "./logo-styles.css";
 
-function Logo(){
-    return(
+
+function Logo() {
+    return (
         <>
             <div className="logo-container">
-                <img src={logo}/>
+                <img src={logo} />
             </div>
         </>
     )

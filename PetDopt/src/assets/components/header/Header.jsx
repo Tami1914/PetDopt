@@ -2,16 +2,19 @@ import Logo from "../logo/Logo";
 import "./Header.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
-
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+import Menu from "../menu/Menu";
 
 function Header() {
     return (
         <>
             <div className="top-bar">
                 <Logo />
-            </div>
-            <div>
-                <FontAwesomeIcon icon={faMagnifyingGlass} />
+                
+                <div className="icons">
+                    <FontAwesomeIcon icon={faMagnifyingGlass} />
+                    <FontAwesomeIcon icon={faBars} />
+                </div>
             </div>
         </>
     )
