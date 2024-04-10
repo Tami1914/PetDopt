@@ -14,6 +14,14 @@ let animalImages = [
   {
     fileName: "Robert.jpg",
     name: "Robert"
+  },
+  {
+    fileName: "Pelu.jpg",
+    name: "Pelu"
+  },
+  {
+    fileName: "Luna.jpg",
+    name: "Luna"
   }
 ];
 
