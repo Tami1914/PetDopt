@@ -22,7 +22,11 @@ let animalImages = [
   {
     fileName: "Luna.jpg",
     name: "Luna"
-  }
+  },
+  {
+    fileName: "Balto.jpg",
+    name: "Balto"
+  },
 ];
 
 export default animalImages;
