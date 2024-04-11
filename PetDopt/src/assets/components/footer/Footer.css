@@ -5,16 +5,20 @@
 .footer-term p{
   color: darkgray;
   font-family: "Kalam";
-  display: flex;
   text-align: center;
   padding-left: 1em;
   padding-right: 1em;
 }
 
-.footer-term a{
+.footer-term .b{
   color: white;
   text-decoration: none;
   font-family: "Kalam";
   display: flex;
   justify-content: center;
+}
+
+.footer-term .pet{
+  text-decoration: none;
+  color: white;
 }
