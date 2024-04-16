@@ -22,3 +22,46 @@
   text-decoration: none;
   color: white;
 }
+
+.footer-desc{
+  background-color: #0C6774;
+  font-family: "Kalam";
+}
+
+.footer-desc h2{
+  display: flex;
+  text-align: center;
+  color: white;
+}
+
+.footer-desc p{
+  text-align: center;
+  color: white;
+}
+
+.footer-desc-images{
+  display: flex;
+}
+
+.footer-desc .logo-container{
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.footer-desc .tutela-container{
+  display: flex;
+  align-items: center;
+}
+
+.footer-text-information{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  color: white;
+}
+
+.footer-text-information .footer-information-container a{
+  color: white;
+  text-decoration: none;
+}
