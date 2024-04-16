@@ -1,32 +1,39 @@
 let animalImages = [
   {
     fileName: "Bobi.jpg",
-    name: "Bobi"
+    name: "Bobi",
+    state: "Disponible"
   },
   {
     fileName: "Max.jpg",
-    name: "Max"
+    name: "Max",
+    state: "Adoptado"
   },
   {
     fileName: "Pipo.jpg",
-    name: "Pipo"
+    name: "Pipo",
+    state: "Adoptado"
   },
   {
     fileName: "Robert.jpg",
-    name: "Robert"
+    name: "Robert",
+    state: "Disponible"
   },
   {
     fileName: "Pelu.jpg",
-    name: "Pelu"
+    name: "Pelu",
+    state: "Disponible"
   },
   {
     fileName: "Luna.jpg",
-    name: "Luna"
+    name: "Luna",
+    state: "Adoptado"
   },
   {
     fileName: "Balto.jpg",
-    name: "Balto"
-  },
+    name: "Balto",
+    state: "Disponible"
+  }
 ];
 
 export default animalImages;
